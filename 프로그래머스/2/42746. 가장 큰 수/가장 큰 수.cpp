@@ -12,7 +12,7 @@
 using namespace std;
 
 struct cmp{
-    bool operator() (const string a, const string b) const
+    bool operator() (const string & a, const string & b) const
     {
         string ab = a+b;
         string ba = b+a;
